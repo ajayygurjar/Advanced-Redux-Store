@@ -2,13 +2,15 @@ import CartButton from '../Cart/CartBUtton';
  import classes from './MainHeader.module.css';
  
  const MainHeader = () => {
+  
    return (
      <header className={classes.header}>
        <h1>ReduxCart</h1>
        <nav>
          <ul>
            <li>
-             <CartButton />
+
+            <CartButton />
            </li>
          </ul>
        </nav>

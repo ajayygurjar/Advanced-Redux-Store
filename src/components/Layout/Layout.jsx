@@ -1,11 +1,11 @@
 import { Fragment } from 'react';
  import MainHeader from './MainHeader';
  
- const Layout = () => {
+ const Layout = (props) => {
    return (
      <Fragment>
        <MainHeader />
-       <main><p>Hello Cart user</p></main>
+       <main>{props.children}</main>
      </Fragment>
    );
  };
