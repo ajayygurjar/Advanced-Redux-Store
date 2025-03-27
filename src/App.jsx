@@ -7,7 +7,7 @@ import Cart from './components/Cart/Cart';
  function App() {
 
 
-  const isCartDispaly=useSelector((state)=>state.cart.isCartDisplay);
+  const isCartDispaly=useSelector((state)=>state.cartDisplay.isCartDisplay);
    return (
      <Layout>
 
