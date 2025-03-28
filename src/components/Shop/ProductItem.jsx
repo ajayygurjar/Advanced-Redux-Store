@@ -16,6 +16,8 @@ import Card from '../UI/Card';
       id,title,price
     }));
 
+    
+
    }
  
    return (
